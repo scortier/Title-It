@@ -1,0 +1,26 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    color: chartreuse;
+}
+
+.search-input{
+    padding: 8px 15px;
+    font-size: 15px;
+    width: 250px;
+    border-width: 0;
+    background: #9584DA;
+    color: cornsilk;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+
+.search-input::placeholder{
+    color:cornsilk;
+    /* font-family: 'Hachi Maru Pop', cursive; */
+    font-family: 'Lato',sans-serif;
+}
+
+.search-input:focus{
+    outline: none;
+}
